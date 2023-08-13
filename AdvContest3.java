@@ -30,5 +30,34 @@ public class AdvContest3 {
 			print(-1);;
 		}
 	}
+	//Awsome tree;
+	Queue<Node> qu =  new LinkedList<>();
+	qu.add(root);
+	while(!qu.isEmpty()) {
+		boolean ismpty = false;
+		int n = qu.size();
+		for(int i=0; i<n; i++) {
+			Node nd = qu.poll();
+			if(ismpty && nd.left!=null || nd.right!=null) {
+				Print(0) //return 0;
+			}
+			if(nd.left!=null) {
+				qu.add(nd.left);
+			}
+			else {
+				ismpty = true;
+			}
+			if(ismty && nd.right!=null) {
+				return 0;
+			}
+			if(nd.right!=null) {
+				qu.add(nd.right)
+			}
+			else {
+				ismpty = true;
+			}
+		}
+	}
+	
 	
 }
