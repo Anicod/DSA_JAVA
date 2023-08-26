@@ -10,7 +10,8 @@ public class BitManu {
 		String A = "Welcome to geeksforgeeks";
 		char ch = '0'+8;
 		//char ch1 = ;
-		System.out.println(ch);
+		System.out.println(1<<3);
+		
 //		for(int i=0; i<A.length; i++){
 //            char ch = A[i];
 //            if(A[i]>='A' && A[i]<='Z'){
@@ -51,18 +52,18 @@ public class BitManu {
 //		}
 //		return (int)prod;
 //	}
-        String[] arrOfStr = A.split(" ");
-        int len = arrOfStr.length;
-        String result = "";
-        //StringBuilder str =null;
-        for (int i = 0; i < len; i++) {
-            if (i == arrOfStr.length - 1)
-                result = arrOfStr[i] + result;
-            else
-                result = " " + arrOfStr[i] + result;
-        }
-        //return result;
-        System.out.println(result);
+//        String[] arrOfStr = A.split(" ");
+//        int len = arrOfStr.length;
+//        String result = "";
+//        //StringBuilder str =null;
+//        for (int i = 0; i < len; i++) {
+//            if (i == arrOfStr.length - 1)
+//                result = arrOfStr[i] + result;
+//            else
+//                result = " " + arrOfStr[i] + result;
+//        }
+//        //return result;
+//        System.out.println(result);
 	}
 	
 }
